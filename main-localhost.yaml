@@ -1,0 +1,7 @@
+---
+- name: Exercise #1
+  hosts: hadi
+  user: ubuntu
+
+  roles:
+   - print-local
